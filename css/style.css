@@ -65,7 +65,7 @@ a {
   position: relative;
 }
 
-.menu-link {
+.menu-link:hover {
   color: #090;  
 }
 
