@@ -65,6 +65,10 @@ a {
   position: relative;
 }
 
+.menu-link {
+  color: #090;  
+}
+
 .menu-link::before {
   content: '';
   position: absolute;
@@ -115,7 +119,7 @@ a {
 }
 
 .button:hover {
-  ackground-color: #090; 
+  background-color: #090; 
 }
 
 .button-primary {
