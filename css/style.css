@@ -65,16 +65,12 @@ a {
   position: relative;
 }
 
-.menu-link:hover {
-  color: #090;  
-}
-
 .menu-link::before {
   content: '';
   position: absolute;
   bottom: -5px;
   left: 0;
-  background-color: #090;
+  background-color: #fff;
   width: 0;
   height: 3px;
   transition: 0.5s;
