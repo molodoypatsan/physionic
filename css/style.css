@@ -112,6 +112,7 @@ a {
   outline: none;
   cursor: pointer;
   color: #ffffff;
+  transition: 0.5s;
 }
 
 .button:hover {
