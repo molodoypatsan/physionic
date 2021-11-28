@@ -61,6 +61,25 @@ a {
   align-items: center;
 }
 
+.menu-link {
+  position: relative;
+}
+
+.menu-link::before {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  background-color: #fff;
+  width: 0;
+  height: 3px;
+  transition: 0.5s;
+}
+
+.menu-link:hover::before {
+  width: 100%;
+}
+
 .logo {
   font-weight: bold;
   font-size: 24px;
