@@ -687,6 +687,10 @@ li.leading-block-item::before {
   color: #737373;
 }
 
+.footer-menu-link:hover {
+  color: #000; 
+}
+
 .copyright {
   padding: 25px 0;
   background-color: #fafafa;
